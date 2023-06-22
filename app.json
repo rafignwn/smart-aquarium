@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "simple-app",
-    "slug": "simple-app",
+    "name": "Smart Aquarium",
+    "slug": "smart-aquarium",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-fish.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0EA5E9"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/adaptive-icon-2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rafignwn.smartaquarium"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e12730a5-bfff-464c-94e2-ceab7fdeff31"
+      }
     }
   }
 }
